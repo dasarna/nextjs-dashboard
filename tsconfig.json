@@ -25,11 +25,13 @@
   },
   "include": [
     "next-env.d.ts",
+    "types/next-auth.d.ts",
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
     "app/lib/placeholder-data.ts",
-    "scripts/seed.js"
+    "scripts/seed.js",
+    "middleware.ts"
   ],
   "exclude": ["node_modules"]
 }
